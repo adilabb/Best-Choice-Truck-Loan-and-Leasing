@@ -7,7 +7,7 @@ export default function ApplyPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-8">Apply Now</h1>
-      <form className="max-w-2xl mx-auto">
+      <form name ="apply" className="max-w-2xl mx-auto">
         <div className="mb-4">
           <Input type="text" placeholder="Full Name" />
         </div>

@@ -26,7 +26,7 @@ export default function ContactPage() {
         <div>
           <form>
             <div className="mb-4">
-              <Input type="text" placeholder="Your Name" />
+              <Input name="text" type="text" placeholder="Your Name" />
             </div>
             <div className="mb-4">
               <Input type="email" placeholder="Your Email" />
