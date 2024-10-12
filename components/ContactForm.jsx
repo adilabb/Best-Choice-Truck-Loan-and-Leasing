@@ -1,7 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { Card } from './card';
+import { Card } from '@/components/Card'
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 
 export function FeedbackForm() {
     const [status, setStatus] = useState(null);
@@ -39,13 +42,29 @@ export function FeedbackForm() {
                     onSubmit={handleFormSubmit}
                     className="text-black flex flex-col gap-3 align-center"
                 >
-                    <input type="hidden" name="form-name" value="feedback" />
+
+                    <div className="mb-4">
+                        <Input name="name" type="text" placeholder="Your Name" />
+                    </div>
+                    <div className="mb-4">
+                        <Input type="email" placeholder="Your Email" />
+                    </div>
+                    <div className="mb-4">
+                        <Input type="tel" placeholder="Your Phone" />
+                    </div>
+                    <div className="mb-4">
+                        <Textarea placeholder="Your Message" rows={4} />
+                    </div>
+                    {/* <Button type="submit">Send Message</Button> */}
+                    <Button className="btn btn-primary" type="submit" disabled={status === 'pending'}>Send Message</Button>
+
+                    {/* <input type="hidden" name="form-name" value="feedback" />
                     <input name="name" type="text" placeholder="Name" required className="input input-bordered" />
                     <input name="email" type="text" placeholder="Email (optional)" className="input input-bordered" />
                     <input name="message" type="text" placeholder="Message" required className="input input-bordered" />
                     <button className="btn btn-primary" type="submit" disabled={status === 'pending'}>
                         Submit
-                    </button>
+                    </button> */}
                     {status === 'ok' && (
                         <div className="alert alert-success">
                             <SuccessIcon />

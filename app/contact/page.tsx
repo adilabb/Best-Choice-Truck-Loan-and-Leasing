@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import {FeedbackForm} from '@/components/ContactForm';
 
 export default function ContactPage() {
   return (
@@ -24,21 +25,9 @@ export default function ContactPage() {
           </div>
         </div>
         <div>
-          <form name="feedback">
-            <div className="mb-4">
-              <Input name="text" type="text" placeholder="Your Name" />
-            </div>
-            <div className="mb-4">
-              <Input type="email" placeholder="Your Email" />
-            </div>
-            <div className="mb-4">
-              <Input type="tel" placeholder="Your Phone" />
-            </div>
-            <div className="mb-4">
-              <Textarea placeholder="Your Message" rows={4} />
-            </div>
-            <Button type="submit">Send Message</Button>
-          </form>
+       <FeedbackForm/>
+
+       
         </div>
       </div>
     </div>
