@@ -20,7 +20,7 @@ export default function CarouselSection() {
   return (
     <section className="mb-16">
       <h2 className="text-3xl font-bold mb-8 text-center">
-        Available for Sale
+        Our Inventory
       </h2>
       <Carousel
         plugins={[plugin.current]}

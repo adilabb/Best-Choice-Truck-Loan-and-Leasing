@@ -31,10 +31,11 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p>123 Truck Lane</p>
-            <p>Anytown, USA 12345</p>
-            <p>Phone: (555) 123-4567</p>
-            <p>Email: info@bestchoicetrucks.com</p>
+            <p>7895 Tranmere Dr</p>
+            <p>Mississauga</p>
+            <p>Ontario L5S 1V9</p>
+            <p>(905) 874-8822</p>
+            <p>info.bestchoicetruckloan@gmail.com</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>

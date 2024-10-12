@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Truck, Clock, DollarSign, RefreshCcw, FileText, Shield, Wrench, AlertTriangle, Clipboard, UserCheck, ListTree, Receipt } from 'lucide-react';
+import { Truck, Clock, DollarSign, RefreshCcw, BarChart, FileText, Shield, Wrench, AlertTriangle, Clipboard, UserCheck, ListTree, Receipt } from 'lucide-react';
 
 export default function LeasingPage() {
   return (
@@ -10,6 +10,37 @@ export default function LeasingPage() {
       <h1 className="text-4xl font-bold mb-8">Truck Leasing Solutions</h1>
       <p className="mb-8 text-lg">At Best Choice Trucks, we offer comprehensive leasing options designed to meet the diverse needs of businesses in the transportation industry. Our flexible programs provide you with the vehicles you need while optimizing your financial resources.</p>
 
+<div className="bg-primary text-primary-foreground p-6 rounded-lg shadow-lg mb-12">
+        <h2 className="text-3xl font-bold mb-4 text-center">Why Choose Our Leasing?</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="flex items-center">
+            <BarChart className="mr-2 h-6 w-6" />
+            <span>Highest Approval Rates</span>
+          </div>
+          <div className="flex items-center">
+            <DollarSign className="mr-2 h-6 w-6" />
+            <span>Lowest Interest Rates</span>
+          </div>
+          <div className="flex items-center">
+            <Clock className="mr-2 h-6 w-6" />
+            <span>4 Hours Approval</span>
+          </div>
+          <div className="flex items-center">
+            <Shield className="mr-2 h-6 w-6" />
+            <span>Deal with Banks Only</span>
+          </div>
+          <div className="flex items-center">
+            <UserCheck className="mr-2 h-6 w-6" />
+            <span>100% Loan Approval</span>
+          </div>
+          <div className="flex items-center">
+            <Clipboard className="mr-2 h-6 w-6" />
+            <span>Free Credit Assessment</span>
+          </div>
+        </div>
+      </div>
+
+      
       <Tabs defaultValue="types" className="mb-12">
         <TabsList className="flex flex-wrap justify-center mb-8 bg-background p-2 rounded-lg">
           <TabsTrigger 
