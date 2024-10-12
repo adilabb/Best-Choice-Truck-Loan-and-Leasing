@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Truck, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
@@ -15,7 +16,13 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <div className="relative">
-            <Truck className="text-accent" size={40} />
+            {/* <Truck className="text-accent" size={40} /> */}
+            <Image
+              src="logo.png"
+              alt="Best Choice Trucks Logo"
+              width={100}
+              height={100}
+            />
           </div>
           <div className="ml-2 flex flex-col">
             <span className="text-2xl font-bold leading-none">Best Choice</span>

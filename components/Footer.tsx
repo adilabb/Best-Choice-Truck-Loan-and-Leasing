@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Truck, Facebook, Twitter, Linkedin } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -9,7 +10,12 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center mb-4">
               <div className="relative">
-                <Truck className="text-accent" size={32} />
+              <Image
+              src="logo.png"
+              alt="Best Choice Trucks Logo"
+              width={100}
+              height={100}
+            />
                 
               </div>
               <div className="ml-2 flex flex-col">

@@ -39,10 +39,15 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="mb-4">
-                  Our truck loans offer flexible financing options tailored to your business needs.
+                  Our truck loans offer flexible financing options tailored to your business needs. With competitive rates, quick approvals, and various term lengths, we help you secure the funds to grow your fleet.
                 </p>
+                <ul className="list-disc list-inside mb-4">
+                  <li>Traditional fixed-rate loans</li>
+                  <li>Equipment lines of credit</li>
+                  <li>SBA loans for qualifying businesses</li>
+                </ul>
                 <Button variant="secondary">
-                  <Link href="/loans">Learn More About Loans</Link>
+                  <Link href="/loans">Explore Loan Options</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -54,10 +59,15 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="mb-4">
-                  Our leasing options provide flexibility and affordability for businesses of all sizes.
+                  Our leasing options provide flexibility and affordability for businesses of all sizes. Choose from various lease types to match your operational needs and financial goals.
                 </p>
+                <ul className="list-disc list-inside mb-4">
+                  <li>Operating leases for short-term flexibility</li>
+                  <li>Finance leases for long-term use</li>
+                  <li>Full-service leases including maintenance</li>
+                </ul>
                 <Button variant="secondary">
-                  <Link href="/leasing">Explore Leasing Options</Link>
+                  <Link href="/leasing">Discover Leasing Solutions</Link>
                 </Button>
               </CardContent>
             </Card>
