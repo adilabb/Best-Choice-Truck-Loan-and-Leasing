@@ -41,7 +41,7 @@ export function FeedbackForm() {
                     onSubmit={handleFormSubmit}
                     className="text-black flex flex-col gap-3 align-center"
                 >
-
+                    <input type="hidden" name="form-name" value="feedback" />
                     <div className="mb-4">
                         <Input name="name" type="text" placeholder="Your Name" />
                     </div>
