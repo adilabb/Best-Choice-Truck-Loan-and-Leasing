@@ -46,13 +46,13 @@ export function FeedbackForm() {
                         <Input name="name" type="text" placeholder="Your Name" />
                     </div>
                     <div className="mb-4">
-                        <Input type="email" placeholder="Your Email" />
+                        <Input name="email" type="text"  placeholder="Your Email" />
                     </div>
                     <div className="mb-4">
-                        <Input type="tel" placeholder="Your Phone" />
+                        <Input name="tel" type="text" placeholder="Your Phone" />
                     </div>
                     <div className="mb-4">
-                        <Input name="message" placeholder="Your Message" rows={4} />
+                        <Input name="message" type="text" placeholder="Your Message" rows={4} />
                     </div>
                  
                     <Button className="btn btn-primary" type="submit" disabled={status === 'pending'}>Send Message</Button>
