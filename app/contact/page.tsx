@@ -12,15 +12,15 @@ export default function ContactPage() {
           <p className="mb-4">We're here to answer any questions you may have about our truck loans, leasing options, or available inventory. Fill out the form, and we'll get back to you as soon as possible.</p>
           <div className="mb-4">
             <h3 className="font-semibold">Address:</h3>
-            <p>123 Truck Lane, Anytown, USA 12345</p>
+            <p>7895 Tranmere Dr, Mississauga, ON, Canada, Ontario</p>
           </div>
           <div className="mb-4">
             <h3 className="font-semibold">Phone:</h3>
-            <p>(555) 123-4567</p>
+            <p>(905) 874-8822</p>
           </div>
           <div className="mb-4">
             <h3 className="font-semibold">Email:</h3>
-            <p>info@bestchoicetrucks.com</p>
+            <p>info.bestchoicetruckloan@gmail.com</p>
           </div>
         </div>
         <div>
