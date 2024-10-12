@@ -24,7 +24,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div>
-          <form>
+          <form name="feedback">
             <div className="mb-4">
               <Input name="text" type="text" placeholder="Your Name" />
             </div>
