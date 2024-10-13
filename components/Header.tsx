@@ -10,13 +10,13 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <header className="bg-primary text-primary-foreground shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center" onClick={closeMenu}>
           <div className="relative">
-            {/* <Truck className="text-accent" size={40} /> */}
             <Image
               src="logo.png"
               alt="Best Choice Trucks Logo"
@@ -54,13 +54,13 @@ export default function Header() {
       {isMenuOpen && (
         <nav className="md:hidden">
           <ul className="flex flex-col items-center py-4">
-            <li><Link href="/loans" className="block py-2 hover:text-accent transition-colors">Loans</Link></li>
-            <li><Link href="/leasing" className="block py-2 hover:text-accent transition-colors">Leasing</Link></li>
-            <li><Link href="/inventory" className="block py-2 hover:text-accent transition-colors">Inventory</Link></li>
-            <li><Link href="/about" className="block py-2 hover:text-accent transition-colors">About</Link></li>
-            <li><Link href="/contact" className="block py-2 hover:text-accent transition-colors">Contact</Link></li>
+            <li><Link href="/loans" className="block py-2 hover:text-accent transition-colors" onClick={closeMenu}>Loans</Link></li>
+            <li><Link href="/leasing" className="block py-2 hover:text-accent transition-colors" onClick={closeMenu}>Leasing</Link></li>
+            <li><Link href="/inventory" className="block py-2 hover:text-accent transition-colors" onClick={closeMenu}>Inventory</Link></li>
+            <li><Link href="/about" className="block py-2 hover:text-accent transition-colors" onClick={closeMenu}>About</Link></li>
+            <li><Link href="/contact" className="block py-2 hover:text-accent transition-colors" onClick={closeMenu}>Contact</Link></li>
             <li className="mt-4">
-              <Button variant="secondary" className="w-full hover:bg-accent hover:text-accent-foreground transition-colors">
+              <Button variant="secondary" className="w-full hover:bg-accent hover:text-accent-foreground transition-colors" onClick={closeMenu}>
                 <Link href="/apply">Apply Now</Link>
               </Button>
             </li>
