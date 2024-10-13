@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Truck, DollarSign, Clock, ShieldCheck } from 'lucide-react';
+import {Receipt, Wallet , FileSignature , Percent , DollarSign, Clock, ShieldCheck } from 'lucide-react';
 import CarouselSection from '@/components/CarouselSection';
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-white">
           <h1 className="text-5xl font-bold mb-4 text-center">
-            Welcome to Best Choice Trucks Loan and Leasing
+            Welcome to Best Choice Truck Loan and Leasing
           </h1>
           <p className="text-xl mb-8 text-center">
             Your trusted partner for truck financing solutions
@@ -34,7 +34,8 @@ export default function Home() {
             <Card className="bg-primary text-primary-foreground">
               <CardHeader>
                 <CardTitle className="flex items-center text-2xl">
-                  <Truck className="mr-2" /> Truck Loans
+                  <Receipt className="mr-2" /> 
+                  Truck Loans
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -54,7 +55,7 @@ export default function Home() {
             <Card className="bg-accent text-accent-foreground">
               <CardHeader>
                 <CardTitle className="flex items-center text-2xl">
-                  <Truck className="mr-2" /> Truck Leasing
+                  <FileSignature className="mr-2" /> Truck Leasing
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -78,7 +79,7 @@ export default function Home() {
           <Card className="bg-secondary text-secondary-foreground">
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Truck className="mr-2" /> Flexible Options
+                <Wallet className="mr-2" /> Flexible Options
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -91,7 +92,7 @@ export default function Home() {
           <Card className="bg-secondary text-secondary-foreground">
             <CardHeader>
               <CardTitle className="flex items-center">
-                <DollarSign className="mr-2" /> Competitive Rates
+                <Percent className="mr-2" /> Competitive Rates
               </CardTitle>
             </CardHeader>
             <CardContent>
