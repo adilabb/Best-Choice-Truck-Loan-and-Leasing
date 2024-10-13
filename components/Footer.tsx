@@ -19,8 +19,8 @@ export default function Footer() {
                 
               </div>
               <div className="ml-2 flex flex-col">
-                <span className="text-lg font-bold leading-none">Best Choice</span>
-                <span className="text-xs font-semibold text-accent">TRUCKS</span>
+                <span className="text-lg font-bold leading-none">Best Choice Truck</span>
+                <span className="text-xs font-semibold text-accent">Loan & Leasing</span>
               </div>
             </Link>
             <p>Your trusted partner for truck loans, leasing, and sales solutions.</p>

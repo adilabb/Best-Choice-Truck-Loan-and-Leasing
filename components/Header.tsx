@@ -25,8 +25,8 @@ export default function Header() {
             />
           </div>
           <div className="ml-2 flex flex-col">
-            <span className="text-2xl font-bold leading-none">Best Choice</span>
-            <span className="text-sm font-semibold text-accent">TRUCKS</span>
+            <span className="text-2xl font-bold leading-none">Best Choice Truck</span>
+            <span className="text-sm font-semibold text-accent">Loan & Leasing</span>
           </div>
         </Link>
         
