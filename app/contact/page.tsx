@@ -27,7 +27,7 @@ export default function ContactPage() {
             <h3 className="text-xl font-semibold mb-4">Our Location</h3>
             <div className="aspect-w-16 aspect-h-9">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2685163659733!2d-79.65650812346747!3d43.65136905219067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3d3b0e6d6f1d%3A0x4e7c8c5c3c1a8d1a!2s7895%20Tranmere%20Dr%2C%20Mississauga%2C%20ON%20L5S%201V9%2C%20Canada!5e0!3m2!1sen!2sus!4v1682431291584!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2685163659733!2d-79.65650812346747!3d43.65136905219067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3d3b0e6d6f1d%3A0x4e7c8c5c3c1a8d1a!2s7895%20Tranmere%20Dr%2C%20Mississauga%2C%20ON%20L5S%201V9%2C%20Canada!5e0!3m2!1sen!2sus!4v1682431291584!5m2!1sen!2sus&amp;markers=color:red%7Clabel:Best+Choice+Trucks%7C43.65136905219067,-79.65650812346747&amp;maptype=roadmap" 
                 width="100%" 
                 height="300" 
                 style={{border:0}} 
