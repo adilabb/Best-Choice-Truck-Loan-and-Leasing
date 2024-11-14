@@ -37,9 +37,9 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p>7895 Tranmere Dr</p>
+            <p>1715 Britannia Rd E</p>
             <p>Mississauga</p>
-            <p>Ontario L5S 1V9</p>
+            <p>Ontario L4W 2A3</p>
             <p>(905) 874-8822</p>
             <p>info.bestchoicetruckloan@gmail.com</p>
           </div>
