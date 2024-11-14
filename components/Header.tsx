@@ -38,6 +38,7 @@ export default function Header() {
         {/* Desktop navigation */}
         <nav className="hidden md:block">
           <ul className="flex space-x-4">
+            <li><Link href="/" className="hover:text-accent transition-colors">Home</Link></li>
             <li><Link href="/loans" className="hover:text-accent transition-colors">Loans</Link></li>
             <li><Link href="/leasing" className="hover:text-accent transition-colors">Leasing</Link></li>
             <li><Link href="/inventory" className="hover:text-accent transition-colors">Inventory</Link></li>
