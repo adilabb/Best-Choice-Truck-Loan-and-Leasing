@@ -13,7 +13,7 @@ export default function ContactPage() {
           <p className="mb-4">We're here to answer any questions you may have about our truck loans, leasing options, or available inventory. Fill out the form, and we'll get back to you as soon as possible.</p>
           <div className="mb-4">
             <h3 className="font-semibold">Address:</h3>
-            <p>7895 Tranmere Dr, Mississauga, ON L5S 1V9, Canada</p>
+            <p>1715 Britannia Rd E, Mississauga, ON L4W 2A3, Canada</p>
           </div>
           <div className="mb-4">
             <h3 className="font-semibold">Phone:</h3>
