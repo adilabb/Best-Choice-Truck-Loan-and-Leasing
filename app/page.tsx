@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative w-full h-[60vh] mb-16">
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <img
-          src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80"
+          src="/hero.jpg"
           alt="Truck on the road"
           className="w-full h-full object-cover"
         />

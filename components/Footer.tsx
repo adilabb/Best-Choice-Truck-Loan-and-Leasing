@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-secondary-foreground/10 text-center">
-          <p>&copy; 2023 Best Choice Trucks Loan and Leasing. All rights reserved.</p>
+          <p>&copy; 2023 Best Choice Trucks Loan and Leasing. All rights reserved. <Link href="https://oneclickits.ca/">OneClick IT Solutions</Link></p>
         </div>
       </div>
     </footer>

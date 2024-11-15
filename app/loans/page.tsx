@@ -23,7 +23,7 @@ export default function LoansPage() {
           </div>
           <div className="flex items-center">
             <Clock className="mr-2 h-6 w-6" />
-            <span>4 Hours Approval</span>
+            <span>24 Hours Approval</span>
           </div>
           <div className="flex items-center">
             <Shield className="mr-2 h-6 w-6" />
@@ -173,7 +173,7 @@ export default function LoansPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Receive a decision within 4 hours and get your equipment financed fast.</p>
+                <p>Receive a decision within 24 hours and get your equipment financed fast.</p>
               </CardContent>
             </Card>
           </div>
