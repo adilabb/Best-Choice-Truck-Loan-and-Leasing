@@ -40,7 +40,7 @@ export default function Footer() {
             <p>1715 Britannia Rd E</p>
             <p>Mississauga</p>
             <p>Ontario L4W 2A3</p>
-            <p>(905) 874-8822</p>
+            <p>(905) 226-7576</p>
             <p>info.bestchoicetruckloan@gmail.com</p>
           </div>
           <div>

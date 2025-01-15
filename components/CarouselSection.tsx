@@ -53,8 +53,8 @@ export default function CarouselSection() {
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     <Image
-                      src={`image chatgpt.webp`}
-                      alt={`Truck 1`}
+                      src={`2016 Freightliner Cascadia.png`}
+                      alt={`2016 Freightliner Cascadia`}
                       width={300}
                       height={300}
                       className="rounded-md object-cover"
@@ -68,8 +68,8 @@ export default function CarouselSection() {
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     <Image
-                      src={`peterbilt  image.jpeg`}
-                      alt={`Truck 2`}
+                      src={`2017 Freightliner Cascadia.png`}
+                      alt={`2017 Freightliner Cascadia`}
                       width={300}
                       height={300}
                       className="rounded-md object-cover"
@@ -83,8 +83,8 @@ export default function CarouselSection() {
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     <Image
-                      src={`IMG_7583.JPG`}
-                      alt={`Truck 3`}
+                      src={`2018 Frieghtliner Cascadia.png`}
+                      alt={`2018 Freightliner Cascadia`}
                       width={300}
                       height={300}
                       className="rounded-md object-cover"
@@ -98,8 +98,23 @@ export default function CarouselSection() {
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     <Image
-                      src={`2015 international .jpg`}
-                      alt={`Truck 4`}
+                      src={`2019 Freightliner Cascadia.png`}
+                      alt={`2019 Freightliner Cascadia`}
+                      width={300}
+                      height={300}
+                      className="rounded-md object-cover"
+                    />
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+              <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <Image
+                      src={`2019 Freightliner Cascadia 2.png`}
+                      alt={`2019 Freightliner Cascadia 2`}
                       width={300}
                       height={300}
                       className="rounded-md object-cover"
