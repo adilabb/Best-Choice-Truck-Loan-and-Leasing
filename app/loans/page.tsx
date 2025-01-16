@@ -64,7 +64,7 @@ export default function LoansPage() {
             Loan Process
           </TabsTrigger>
         </TabsList>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-[5em]">
+        <div className="mt-[5em]">
         <TabsContent value="loan-options">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card>
