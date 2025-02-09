@@ -55,6 +55,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-secondary-foreground/10 text-center">
           <p>&copy; 2023 Best Choice Trucks Loan and Leasing. Powered by <Link href="https://oneclicks.ca">OneClick IT Solutions</Link></p>
         </div>
+        
       </div>
     </footer>
   );
